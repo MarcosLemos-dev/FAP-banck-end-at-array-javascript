@@ -1,0 +1,31 @@
+/*
+Instruções do projeto
+Você deve criar três listas em JavaScript:
+
+1. para guardar os nomes de dez pessoas;
+2. para guardar as suas idades;
+3. para guardar as suas cores favoritas.
+
+Em seguida, imprima essas listas. Depois, faça algumas modificações, alterando uma cor e uma idade. Ao terminar, imprima novamente todas as informações das três listas.
+
+*/
+/* desenvolvido no programiz pelo desenvolvedor MarcosLemos-dev*/
+let pessoas = ['Maria', 'jose' , 'joão', 'joana' , 'antonia' , 'antonio', 'mario' , 'josefa' , 'ana' , 'beatriz'];
+let idade = [12, 23, 34, 23 ,24, 56, 67, 78, 54, 43];
+let cores = ['azul', 'verde' , 'vermelho', 'amarelo' , 'preto' , 'azul-claro', 'roxo' , 'violeta' , 'laranja' , 'marron'];
+console.log('temos que a lista inicial de pessoas é: \n',pessoas);
+console.log('temos que a lista inicial de idade de cada pessoa  é: \n',idade);
+console.log('temos que a lista inicial das cores favoritas é: \n',cores);
+
+
+console.log("trocando a idade 12 por:22 ");
+idade.splice(0,1,22);
+console.log(idade);
+console.log("trocando a cor marron por: rosa ");
+cores.splice(9,1,'rosa');
+console.log(cores);
+
+console.log('temos que a lista final de pessoas é: \n',pessoas);
+console.log('temos que a lista final de idade de cada pessoa  é: \n',idade);
+console.log('temos que a lista final das cores favorita  é: \n',cores);
+/* desenvolvido no programiz pelo desenvolvedor MarcosLemos-dev*/
